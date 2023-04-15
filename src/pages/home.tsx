@@ -25,7 +25,7 @@ function Square({
     <button
       onClick={onSquareClick}
       className={
-        "h-32 w-32 p-2 m-2 border font-bold text-4xl transition" +
+        "h-16 w-16 sm:w-32 sm:h-32 p-2 m-2 border font-bold text-2xl sm:text-4xl transition" +
         (hasValue ? "" : " hover:bg-slate-600")
       }
     >
